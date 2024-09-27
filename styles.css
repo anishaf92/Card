@@ -1,0 +1,49 @@
+body{
+    background-color:white;
+}
+
+.card{
+    position: relative;
+    top: 200px;
+    left: 650px;
+    width: 200px;
+    height: 300px;
+    border-radius: 5px;
+    box-shadow: 0px 0px 15px rgb(53, 53, 53);
+}
+
+.circle{
+    position: relative;
+    left: 26%;
+    top: 20px;
+    width: 100px;
+    height: 100px;
+    background-color: dimgrey;
+    border-radius: 50%;
+}
+
+.name{
+    position: relative;
+    top: 26px;
+    left: 25%;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight:210;
+}
+
+.caption{
+    position: relative;
+    top: 10px;
+    left: 21%;
+    bottom: 30px;
+    font-family: cursive;
+}
+
+.icon {
+    position: relative;
+    top: 14px;
+    left: 10%;
+}
+.icon .fa-brands{
+    font-size: 25px;
+    margin-left: 20px;
+}
